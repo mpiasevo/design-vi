@@ -29,10 +29,10 @@ def read_temp():
 
 while True:
 	struct_time = time.localtime()
-	timestamp = time.strftime("%d%H%M%S",struct_time)
+	timestamp = time.strftime("%d %H:%M:%S",struct_time)
 	data_raw = open("data_raw.txt", "a")
 	L = f'{timestamp} {read_temp()[0]} {read_temp()[1]} \n'
 	data_raw.writelines(L)
 	print(timestamp, read_temp()[0], read_temp()[1])
 	data_raw.close()
-	time.sleep(1)
+	time.sleep(600)

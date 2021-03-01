@@ -1,0 +1,1 @@
+gnuplot -e "set terminal pngcairo size 1920,1080; set xlabel 'Day hour:min:sec'; set xdata time; set timefmt '%d %H:%M:%S'; set format x '%d %H:%M:%S'; set ylabel 'Temperature (F)'; plot 'data_raw.txt' u 1:3 t 'temp(F)' w l" > temp.png
