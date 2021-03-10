@@ -16,3 +16,5 @@ A few of the files use this circuit:![ldr_bb](https://user-images.githubusercont
 
 motion.py requires a PIR motion detector sensor and this circuit:
 ![PIR Interface with Raspberry](https://user-images.githubusercontent.com/45151020/110577645-10ca3500-8131-11eb-8723-eacbcc1f9d95.png)
+
+For more instruction on how to use lcd.py go to: https://www.mbtechworks.com/projects/drive-an-lcd-16x2-display-with-raspberry-pi.html
