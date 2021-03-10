@@ -2,7 +2,8 @@
 Stevens Design VI Repo
 
 Usefull GPIO Diagram:
-![external-content duckduckgo](https://user-images.githubusercontent.com/45151020/110577921-a9f94b80-8131-11eb-8245-d85aa3d4e796.png)
+![GPIO-Pinout-Diagram-2](https://user-images.githubusercontent.com/45151020/110583787-37da3400-813c-11eb-8a64-936fc20ec97e.png)
+
 
 
 /temperature contains files to perform an experiment with the 1-wire circuit, you need to have gnuplot installed on your Pi to run the auto.sh
